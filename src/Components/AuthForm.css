@@ -1,0 +1,43 @@
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(138, 149, 181);
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+input{
+    width: 15rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(32, 90, 112);
+}
+::placeholder{
+    color :white;
+}
+.form button{
+    width: 5rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+}
+.Btn{
+    display: flex;
+    gap: 1rem;
+}
